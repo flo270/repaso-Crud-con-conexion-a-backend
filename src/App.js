@@ -1,6 +1,6 @@
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import './App.css';
-import {useState} from 'react'
+//import {useState} from 'react'
 
 import Home from './page/home'
 import CrearMod from './page/crearMod'

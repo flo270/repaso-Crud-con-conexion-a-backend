@@ -44,7 +44,7 @@ const Tabla = () => {
       if (res.status === 200) {
         Swal.fire(
           'Guardado!',
-          `El registro ${mod.nombre} ha eliminado exitosamente!`,
+          `El registro se ha eliminado exitosamente!`,
           'success'  
       )
       } else {

@@ -24,11 +24,14 @@ const navigate=useNavigate()
     setLoader(true)
     }) 
   } 
+useEffect(() => {
+ getData()
+}, [])
 
  
-useEffect(()=>{
+/* useEffect(()=>{
    getData() 
-},[])
+},[]) */
 
 const update= (_id)=>{
 console.log('id para modificar',_id)
